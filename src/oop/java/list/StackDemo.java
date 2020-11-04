@@ -4,7 +4,8 @@ import java.util.List;
 import java.util.Stack;
 
 // https://www.geeksforgeeks.org/list-interface-java-examples/
-// class ini menunjukkan conoh implementasi Stack
+// class ini menunjukkan contoh implementasi Stack
+// https://www.geeksforgeeks.org/stack-class-in-java
 /*
  * Stack is a class which is implemented in the collection framework and extends the vector class models 
  * and implements the Stack data structure. 
