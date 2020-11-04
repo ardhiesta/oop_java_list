@@ -44,10 +44,28 @@ public class ListDemo2 {
 			System.out.print(str + " ");
 	}
 
+	void removingListElement() {
+		// print list awal
+		System.out.println("Initial ArrayList " + al);
+
+		// hapus list element index 1
+		al.remove(1);
+
+		// print list
+		System.out.println("After the 1st Index Removal " + al);
+
+		// hapus element S1
+		al.remove("S1");
+
+		// print list
+		System.out.println("After the Object Removal " + al);
+	}
+
 	public static void main(String[] args) {
 		ListDemo2 ld2 = new ListDemo2();
 		ld2.addToList();
 		ld2.changeListElement();
 		ld2.iterateListELement();
+		ld2.removingListElement();
 	}
 }
